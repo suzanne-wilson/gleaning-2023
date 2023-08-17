@@ -288,10 +288,6 @@
                 .setPopup(new mapboxgl.Popup().setHTML("<h1>Michael Zimmerman and Hope Borsato</h1>"))
                 .addTo(map);
 
-
-            
-console.log(HZ.getPopup()); // return the popup instance
-            
             var bbox = turf.bbox(csvData);
             map.fitBounds(bbox, { padding: 50 });
 
