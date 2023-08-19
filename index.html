@@ -117,7 +117,7 @@
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQkDwIrKTtu-uHZBgRlsqndM91Nz7VUlqjUx83d46U8QqQ2B8ZKWDZHjA1CB2rZ2YAnM7d2gSl3RT3A/pub?gid=1649527838&single=true&output=csv',
+        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTi2K4Uc3uawI81Ujj8wvZc-rnJeCjo5QIPQMNvp7pCzAz1Br_eIiUlKJfNWxzcEDvp8AMPwaOXRfd_/pub?gid=0&single=true&output=csv',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
